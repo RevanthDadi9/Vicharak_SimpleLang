@@ -17,27 +17,22 @@ The 8-Bit Compiler is a simple compiler designed to translate a minimalistic hig
 
 ### 2. Assignment
 - **Syntax**: `<variable_name> = <expression>;`
-- **Example**: `a = b + c;`
+- **Example**:let a = 5;
+               let b = 10;
+
 
 ### 3. Arithmetic Operations
-- **Supported Operators**: `+`, `-`
-- **Example**: `a = b - c;`
-
-### 4. Conditionals
-- **Syntax**: `if (<condition>) { <statements> }`
-- **Example**: `if (a == b) { a = a + 1; }`
+- **Supported Operators**: `+`, `-`,`*`,`&`,`|`
+- **Example**: `a = b + c;`
 
 ## Example Program
 ```plaintext
-// Variable declaration 
-int a;
-int b; 
-int c; 
-
-// Assignment 
-a = 10; 
-b = 20; 
-c = a + b; 
+let a = 5;
+let b = 10;
+c = a + b;
+d = a * b;
+e = a & b;
+f = a | b;
 
 // Conditional 
 if (c == 30) { 
