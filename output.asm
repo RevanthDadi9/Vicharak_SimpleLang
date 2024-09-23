@@ -1,0 +1,5 @@
+MOV R0, 5
+ADD R1, R0, R0
+MUL R2, R0, R0
+AND R3, R0, R0
+OR R4, R0, R0
